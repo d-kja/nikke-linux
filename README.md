@@ -4,19 +4,19 @@ This repository expands the Linux guide for **GODDESS OF VICTORY: NIKKE** into l
 
 ## Paths
 
-| Path | Description | Status | Guide |
-|---|---|---|---|
-| Bottles + DW Proton | Recommended Bottles setup | Tested | [Guide](guides/Bottles/dw-proton.md) |
-| Bottles + miniloader | Runner alternative | Tested | [Guide](guides/Bottles/miniloader.md) |
-| Lutris script | Script-based install | Tested | [Guide](guides/Lutris/script.md) |
-| DW Launcher | Dawn Winery launcher | Tested | [Guide](guides/Bottles/miniloader.md) |
-| Faugus + DW Proton | Recommended Faugus setup | Inferred, needs testing | [Guide](guides/Faugus/dw-proton.md) |
-| Faugus + miniloader | Runner alternative | Inferred, needs testing | [Guide](guides/Faugus/miniloader.md) |
-| Heroic + DW Proton | Recommended Heroic setup | Inferred, needs testing | [Guide](guides/Heroic/dw-proton.md) |
-| Heroic + miniloader | Runner alternative | Inferred, needs testing | [Guide](guides/Heroic/miniloader.md) |
-| Steam + DW Proton | Recommended Steam setup | Inferred, needs testing | [Guide](guides/Steam/dw-proton.md) |
-| Steam + miniloader | Runner alternative | Inferred, needs testing | [Guide](guides/Steam/miniloader.md) |
-| Windows + Steam | Last resort if Linux-side install paths fail | Tested | [Guide](guides/Last%20resort/windows-steam.md) |
+| Path | Description | Guide |
+|---|---|---|
+| Bottles + DW Proton | Recommended Bottles setup | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Bottles/dw-proton.md) |
+| Bottles + miniloader | Runner alternative | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Bottles/miniloader.md) |
+| Lutris script | Script-based install | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Lutris/script.md) |
+| DW Launcher | Dawn Winery launcher | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Bottles/miniloader.md) |
+| Faugus + DW Proton | Recommended Faugus setup | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Faugus/dw-proton.md) |
+| Faugus + miniloader | Runner alternative | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Faugus/miniloader.md) |
+| Heroic + DW Proton | Recommended Heroic setup | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Heroic/dw-proton.md) |
+| Heroic + miniloader | Runner alternative | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Heroic/miniloader.md) |
+| Steam + DW Proton | Recommended Steam setup | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Steam/dw-proton.md) |
+| Steam + miniloader | Runner alternative | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Steam/miniloader.md) |
+| Windows + Steam | Last resort if Linux-side install paths fail | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Last%20resort/windows-steam.md) |
 
 ## Shared Requirements
 
@@ -27,4 +27,4 @@ Each path has additional launcher and runner requirements in its guide.
 
 ## Troubleshooting
 
-Shared caveats and known issues are kept at the repository root: [known issues](known-issues.md).
+Shared caveats and known issues are kept at the repository root: [known issues](https://github.com/d-kja/nikke-linux/blob/main/known-issues.md).
