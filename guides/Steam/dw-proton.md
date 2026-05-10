@@ -1,9 +1,5 @@
 # Steam: DW Proton
 
-## Verification Status
-
-Inferred from the Gist's Steam note and current recommendation that Steam can use DW Proton without Windows.
-
 ## Requirements
 
 - A Linux distribution
@@ -13,9 +9,38 @@ Inferred from the Gist's Steam note and current recommendation that Steam can us
 
 ## Runner Setup
 
-1. Install DW Proton where Steam can use it as a compatibility tool.
-2. Restart Steam after installing DW Proton.
-3. Confirm DW Proton appears under the non-Steam game's compatibility options.
+### Option 1: ProtonPlus Or Another Third-Party Installer
+
+1. Install ProtonPlus or another compatibility-tool installer that supports Steam.
+2. Select Steam as the target launcher if the installer asks.
+3. Install **DW-Proton Latest** or the latest DW Proton release.
+4. Restart Steam after installing DW Proton.
+5. Confirm DW Proton appears under the non-Steam game's compatibility options.
+
+### Option 2: Manual Download
+
+1. Download the latest DW Proton release archive from [Dawn Winery](https://dawn.wine/dawn-winery/dwproton/releases).
+2. Create Steam's custom compatibility tool directory if it does not exist:
+
+   ```text
+   Native Steam: ~/.steam/root/compatibilitytools.d/
+   Flatpak Steam: ~/.var/app/com.valvesoftware.Steam/data/Steam/compatibilitytools.d/
+   Snap Steam: ~/snap/steam/common/.steam/steam/compatibilitytools.d/
+   ```
+
+   On many native installs, `~/.steam/root/` and `~/.steam/steam/` point at the same Steam directory. Prefer `~/.steam/root/compatibilitytools.d/` unless your distro documents a different Steam root.
+
+3. Extract the DW Proton archive into the matching `compatibilitytools.d` directory. Do not flatten the archive; Steam expects one runner folder under `compatibilitytools.d`.
+
+   Example native layout:
+
+   ```text
+   ~/.steam/root/compatibilitytools.d/dwproton-<version>/
+   ```
+
+4. Check that the runner folder contains Steam compatibility tool files such as `compatibilitytool.vdf`, `proton`, and `toolmanifest.vdf`.
+5. Restart Steam after installing DW Proton.
+6. Confirm DW Proton appears under the non-Steam game's compatibility options.
 
 ## Prefix/Game Setup
 
@@ -26,6 +51,18 @@ Inferred from the Gist's Steam note and current recommendation that Steam can us
 5. Launch the installer once so Steam creates the prefix.
 6. Let the installer download and install NIKKE.
 7. Find the prefix under Steam's `compatdata` directory. Non-Steam games usually use a random numeric folder.
+
+   Common prefix locations:
+
+   ```text
+   Native Steam: ~/.steam/root/steamapps/compatdata/
+   Flatpak Steam: ~/.var/app/com.valvesoftware.Steam/data/Steam/steamapps/compatdata/
+   Snap Steam: ~/snap/steam/common/.steam/steam/steamapps/compatdata/
+   Other Steam library: <library-path>/steamapps/compatdata/
+   ```
+
+   Sort by latest modified time after launching the installer to identify the new non-Steam prefix.
+
 8. Change the non-Steam game's executable path to:
 
    ```text

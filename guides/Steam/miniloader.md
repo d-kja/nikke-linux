@@ -1,9 +1,5 @@
 # Steam: miniloader
 
-## Verification Status
-
-Inferred and needs testing.
-
 ## Requirements
 
 - A Linux distribution
@@ -13,11 +9,33 @@ Inferred and needs testing.
 
 ## Runner Setup
 
-This path is inferred from the Bottles miniloader path and the Gist's note that Steam can work with custom runners. It needs testing.
+Steam only lists runners that are installed as Steam compatibility tools. The folder under `compatibilitytools.d` needs the Steam compatibility-tool metadata, not just a bare Wine directory.
 
-1. Install miniloader where Steam can use it as a compatibility tool.
-2. Restart Steam.
-3. Confirm miniloader appears under the non-Steam game's compatibility options.
+1. Download the miniloader release from [Dawn Winery](https://dawn.wine/NelloKudo/wine-miniloader/releases).
+2. Create Steam's custom compatibility tool directory if it does not exist:
+
+   ```text
+   Native Steam: ~/.steam/root/compatibilitytools.d/
+   Flatpak Steam: ~/.var/app/com.valvesoftware.Steam/data/Steam/compatibilitytools.d/
+   Snap Steam: ~/snap/steam/common/.steam/steam/compatibilitytools.d/
+   ```
+
+   On many native installs, `~/.steam/root/` and `~/.steam/steam/` point at the same Steam directory. Prefer `~/.steam/root/compatibilitytools.d/` unless your distro documents a different Steam root.
+
+3. Extract the miniloader runner into the matching `compatibilitytools.d` directory. Do not flatten the archive; Steam expects one runner folder under `compatibilitytools.d`.
+
+   Example native layout:
+
+   ```text
+   ~/.steam/root/compatibilitytools.d/miniloader-<version>/
+   ```
+
+4. Check that the runner folder contains Steam compatibility tool files such as `compatibilitytool.vdf`, `proton`, and `toolmanifest.vdf`.
+
+   If the package only contains Wine files such as `bin/wine`, `bin/wineserver`, and `lib/wine/`, Steam will not show it as a Proton runner by itself. Use a Proton-formatted miniloader package or wrapper for Steam, or use that Wine runner through Bottles, Heroic, or Faugus instead.
+
+5. Restart Steam.
+6. Confirm miniloader appears under the non-Steam game's compatibility options.
 
 ## Prefix/Game Setup
 
@@ -28,6 +46,18 @@ This path is inferred from the Bottles miniloader path and the Gist's note that 
 5. Launch the installer once so Steam creates the prefix.
 6. Let the installer download and install NIKKE.
 7. Find the prefix under Steam's `compatdata` directory. Non-Steam games usually use a random numeric folder.
+
+   Common prefix locations:
+
+   ```text
+   Native Steam: ~/.steam/root/steamapps/compatdata/
+   Flatpak Steam: ~/.var/app/com.valvesoftware.Steam/data/Steam/steamapps/compatdata/
+   Snap Steam: ~/snap/steam/common/.steam/steam/steamapps/compatdata/
+   Other Steam library: <library-path>/steamapps/compatdata/
+   ```
+
+   Sort by latest modified time after launching the installer to identify the new non-Steam prefix.
+
 8. Change the non-Steam game's executable path to:
 
    ```text

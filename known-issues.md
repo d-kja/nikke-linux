@@ -15,6 +15,10 @@
 
 - When quitting, you may need to stop the process from the launcher, Bottles, or Steam.
 
+## Video Playback
+
+- Video playback is a known issue on some setups. Try switching between launchers to see if it resolves on your end.
+
 ## Updates
 
 - DW Proton paths should update through the launcher when working correctly.

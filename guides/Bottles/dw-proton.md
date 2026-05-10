@@ -1,9 +1,5 @@
 # Bottles: DW Proton
 
-## Verification Status
-
-Confirmed from the Gist.
-
 ## Requirements
 
 - A Linux distribution

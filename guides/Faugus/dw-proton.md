@@ -1,25 +1,30 @@
 # Faugus: DW Proton
 
-## Verification Status
-
-User-tested and approved for inclusion from the supplied comment.
-
 ## Requirements
 
 - A Linux distribution
 - The NIKKE Windows installer from the [official website](https://nikke-en.com)
 - Faugus Launcher, installed via Flatpak or your package manager
-- [ProtonPlus](https://protonplus.vysp3r.com/#download)
-- DW-Proton Latest, installed through ProtonPlus
+- DW-Proton Latest, installed through ProtonPlus, another third-party installer, or manually
 
 ## Runner Setup
 
-1. Install ProtonPlus from [the ProtonPlus download page](https://protonplus.vysp3r.com/#download).
-2. Open ProtonPlus.
+### Option 1: ProtonPlus Or Another Third-Party Installer
+
+1. Install ProtonPlus or another runner installer that supports Faugus.
+2. Open the installer.
 3. Install **DW-Proton Latest**.
-4. Close ProtonPlus.
+4. Close the installer.
 
 Faugus should auto-detect DW-Proton after installation.
+
+### Option 2: Manual Download
+
+1. Download DW Proton from [Dawn Winery](https://dawn.wine/dawn-winery/dwproton). Select the latest release archive.
+2. Extract the archive.
+3. Place the extracted runner where Faugus can detect custom Wine/Proton runners.
+4. Restart Faugus.
+5. Confirm DW-Proton appears in Faugus's Proton runner selection.
 
 ## Prefix/Game Setup
 

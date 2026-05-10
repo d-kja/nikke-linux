@@ -1,9 +1,5 @@
 # Lutris: Script
 
-## Verification Status
-
-Confirmed from the Gist.
-
 ## Requirements
 
 - A Linux distribution
@@ -11,6 +7,16 @@ Confirmed from the Gist.
 - [DWPROTON](https://dawn.wine/dawn-winery/dwproton)
 
 ## Runner Setup
+
+### Option 1: ProtonPlus Or Another Third-Party Installer
+
+1. Install ProtonPlus or another runner installer that supports Lutris.
+2. Select Lutris as the target launcher if the installer asks.
+3. Install **DW-Proton Latest** or the latest DW Proton release.
+4. Restart Lutris.
+5. Confirm DW Proton is available as a Wine runner.
+
+### Option 2: Manual Download
 
 Install Lutris and make sure DW Proton is available as the Wine runner you intend to use. The Gist recommends `dwproton-10.0-20` for the script path.
 

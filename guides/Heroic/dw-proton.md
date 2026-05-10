@@ -1,9 +1,5 @@
 # Heroic: DW Proton
 
-## Verification Status
-
-Inferred and needs testing.
-
 ## Requirements
 
 - A Linux distribution
@@ -14,6 +10,16 @@ Inferred and needs testing.
 ## Runner Setup
 
 This path is inferred from the Gist's note that other launchers supporting custom Wine runners can work. It needs Heroic-specific testing.
+
+### Option 1: ProtonPlus Or Another Third-Party Installer
+
+1. Install ProtonPlus or another runner installer that supports Heroic.
+2. Select Heroic as the target launcher if the installer asks.
+3. Install **DW-Proton Latest** or the latest DW Proton release.
+4. Restart Heroic.
+5. Confirm DW Proton appears in Heroic's Wine/Proton runner selection.
+
+### Option 2: Manual Download
 
 1. Install Heroic Games Launcher.
 2. Install DW Proton where Heroic can detect custom Wine/Proton runners.

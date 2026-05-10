@@ -1,9 +1,5 @@
 # Faugus: miniloader
 
-## Verification Status
-
-Inferred and needs testing.
-
 ## Requirements
 
 - A Linux distribution

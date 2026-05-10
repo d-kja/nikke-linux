@@ -1,9 +1,5 @@
 # Bottles: miniloader
 
-## Verification Status
-
-Confirmed from the Gist.
-
 ## Requirements
 
 - A Linux distribution

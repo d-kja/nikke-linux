@@ -1,9 +1,5 @@
 # Last Resort: Windows + Steam
 
-## Verification Status
-
-Confirmed from the Gist, but marked as last resort.
-
 ## Requirements
 
 - A Linux distribution
@@ -15,8 +11,19 @@ Confirmed from the Gist, but marked as last resort.
 ## Runner Setup
 
 1. Install Steam on Linux.
-2. Install DW Proton or Proton GE where Steam can use it as a compatibility tool.
-3. Restart Steam after installing the runner.
+2. Install DW Proton or Proton GE using one of the options below.
+
+### Option 1: ProtonPlus Or Another Third-Party Installer
+
+1. Install ProtonPlus or another compatibility-tool installer that supports Steam.
+2. Select Steam as the target launcher if the installer asks.
+3. Install **DW-Proton Latest**, the latest DW Proton release, or Proton GE.
+4. Restart Steam after installing the runner.
+
+### Option 2: Manual Download
+
+1. Install DW Proton or Proton GE where Steam can use it as a compatibility tool.
+2. Restart Steam after installing the runner.
 
 ## Prefix/Game Setup
 
