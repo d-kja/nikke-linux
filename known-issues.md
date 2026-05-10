@@ -18,6 +18,12 @@
 ## Video Playback
 
 - Video playback is a known issue on some setups. Try switching between launchers to see if it resolves on your end.
+  - You can try downloading mf, mfplat, windowscodecs, quartz, and devenum
+  - NVIDIA specific:
+    - Downgrade your driver to test
+    - You can try using `GST_PLUGIN_FEATURE_RANK=nvh264dec:0,nvdec:0,nvh265dec:0`
+   
+_Note: none of those solutions are guaranteed, but you can try using them._
 
 ## Updates
 
