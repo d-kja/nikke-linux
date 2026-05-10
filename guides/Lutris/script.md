@@ -18,7 +18,7 @@
 
 ### Option 2: Manual Download
 
-Install Lutris and make sure DW Proton is available as the Wine runner you intend to use. The Gist recommends `dwproton-10.0-20` for the script path.
+Install Lutris and make sure DW Proton is available as the Wine runner you intend to use. The Script recommends `dwproton-10.0-20` for the script path.
 
 ## Prefix/Game Setup
 
