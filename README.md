@@ -6,17 +6,17 @@ This repository expands the Linux guide for **GODDESS OF VICTORY: NIKKE** into l
 
 | Path | Description | Guide |
 |---|---|---|
-| Bottles + DW Proton | Recommended Bottles setup | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Bottles/dw-proton.md) |
-| Bottles + miniloader | Runner alternative | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Bottles/miniloader.md) |
-| Lutris script | Script-based install | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Lutris/script.md) |
+| Bottles | Recommended launcher setup | [Guide](https://github.com/d-kja/nikke-linux/tree/main/guides/Bottles) |
+| Faugus | Launcher setup | [Guide](https://github.com/d-kja/nikke-linux/tree/main/guides/Faugus) |
+| Heroic | Launcher setup | [Guide](https://github.com/d-kja/nikke-linux/tree/main/guides/Heroic) |
+| Steam | Non-Steam game setup | [Guide](https://github.com/d-kja/nikke-linux/tree/main/guides/Steam) |
+| Lutris | Script-based install | [Guide](https://github.com/d-kja/nikke-linux/tree/main/guides/Lutris) |
 | DW Launcher | Dawn Winery launcher | [Guide](https://github.com/an-anime-team/anime-games-launcher) |
-| Faugus + DW Proton | Recommended Faugus setup | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Faugus/dw-proton.md) |
-| Faugus + miniloader | Runner alternative | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Faugus/miniloader.md) |
-| Heroic + DW Proton | Recommended Heroic setup | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Heroic/dw-proton.md) |
-| Heroic + miniloader | Runner alternative | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Heroic/miniloader.md) |
-| Steam + DW Proton | Recommended Steam setup | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Steam/dw-proton.md) |
-| Steam + miniloader | Runner alternative | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Steam/miniloader.md) |
-| Windows + Steam | Last resort if Linux-side install paths fail | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Last%20resort/windows-steam.md) |
+| Windows + Steam | Last resort if Linux-side install paths fail | [Guide](https://github.com/d-kja/nikke-linux/tree/main/guides/Last%20resort) |
+
+## Runner Options
+
+DW Proton and miniloader are the runner options covered here. Both can do the same job, but DW Proton is recommended. If you cannot get the game running with DW Proton, try miniloader.
 
 ## Shared Requirements
 
