@@ -9,7 +9,7 @@ This repository expands the Linux guide for **GODDESS OF VICTORY: NIKKE** into l
 | Bottles + DW Proton | Recommended Bottles setup | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Bottles/dw-proton.md) |
 | Bottles + miniloader | Runner alternative | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Bottles/miniloader.md) |
 | Lutris script | Script-based install | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Lutris/script.md) |
-| DW Launcher | Dawn Winery launcher | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Bottles/miniloader.md) |
+| DW Launcher | Dawn Winery launcher | [Guide](https://github.com/an-anime-team/anime-games-launcher) |
 | Faugus + DW Proton | Recommended Faugus setup | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Faugus/dw-proton.md) |
 | Faugus + miniloader | Runner alternative | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Faugus/miniloader.md) |
 | Heroic + DW Proton | Recommended Heroic setup | [Guide](https://github.com/d-kja/nikke-linux/blob/main/guides/Heroic/dw-proton.md) |
