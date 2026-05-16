@@ -28,7 +28,7 @@ _Note: none of those solutions are guaranteed, but you can try using them._
 ## Updates
 
 - DW Proton paths should update through the launcher when working correctly.
-- Some updates might require moving the content from `update_files` into the parent directory.
+- Some updates might require moving the content from `update_files` into the parent directory. [[ref]](https://gist.github.com/d-kja/74633df5f2d6e55cb2a77c3f9d6acece?permalink_comment_id=6151630#gistcomment-6151630)
 - The Windows + Steam path will require re-downloading the updated game on Windows and transferring it again, which is why it is a last-resort path.
 
 ## Inferred Launcher Paths
