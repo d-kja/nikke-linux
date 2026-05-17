@@ -78,3 +78,11 @@ This path intentionally excludes Windows. The Gist states that Steam itself is n
 Updates should be handled through the launcher when using DW Proton.
 
 Shared troubleshooting lives in [known issues](../../known-issues.md).
+
+<br />
+
+## Preview
+
+https://github.com/user-attachments/assets/e277b735-c9cf-4068-9e8d-fa6d6b019f4c
+
+_I can't help with the compression, anything bigger than 10MB = no preview_
