@@ -9,7 +9,7 @@
 
 - The launcher may not remember your password.
 - The game may forget your server region.
-- Use Steam login at your discretion. Nikke doesn't support this by default, and without DW Proton it's literally not working.
+- Use Steam login at your discretion. Nikke doesn't support this by default, and without DW Proton it's literally not working. You can try to use `PROTONFIXES_DISABLE=1 SteamOS=0 SteamDeck=0 %command%` to disable it, but I haven't tested myself
 
 ## Quitting the Game
 
