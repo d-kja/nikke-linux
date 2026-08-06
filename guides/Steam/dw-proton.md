@@ -13,7 +13,7 @@
 
 1. Install ProtonPlus or another compatibility-tool installer that supports Steam.
 2. Select Steam as the target launcher if the installer asks.
-3. Install **DW-Proton 10.0-26** or the latest DW Proton release. ([Version](https://github.com/d-kja/nikke-linux/issues/1#issuecomment-5200525490))
+3. Install **DW-Proton 10.0-26**. - [[Version](https://github.com/d-kja/nikke-linux/issues/1#issuecomment-5200525490)]
 4. Restart Steam after installing DW Proton.
 5. Confirm DW Proton appears under the non-Steam game's compatibility options.
 
