@@ -2,8 +2,9 @@
 
 This repository expands the Linux guide for **GODDESS OF VICTORY: NIKKE** into launcher-specific paths.
 
-> [!IMPORTANT]  
-> The latest update introduced a new version of the ACE anti-cheat, so you’ll now need to patch the launcher if you still want to play the PC version. The patch is available in the Nikke channel on the Dawn Winery Discord server - it’s one of the pinned messages.
+
+> [!NOTE]  
+> The latest update introduced a new version of the ACE anti-cheat, so you’ll now need to either update to the latest DWProton or patch the launcher if you still want to play the PC version. The patch is available in the Nikke channel on the Dawn Winery Discord server - it’s one of the pinned messages.
 
 ## Paths
 
